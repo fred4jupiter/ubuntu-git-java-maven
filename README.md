@@ -1,4 +1,4 @@
-# maven-git-docker
+# ubuntu-git-java-maven
 Ubuntu container with Git, Java and Maven installed.
 
 ## How to build
