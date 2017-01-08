@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 MAINTAINER Michael Staehler <hamsterhase@gmx.de>
 
 # Install the python script required for "add-apt-repository" 
-RUN apt-get update && apt-get install -y software-properties-common curl git
+RUN apt-get update && apt-get install -y software-properties-common curl git nano
 
 # Sets language to UTF8 : this works in pretty much all cases 
 ENV LANG en_US.UTF-8 
